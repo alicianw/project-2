@@ -1,4 +1,4 @@
-/* Headings */
+/* Headings*/
 h1{
      font-style: italic;
      text-align: center;
@@ -9,6 +9,18 @@ h1{
 
 /* form  */
 input{
+     margin-bottom:20px;
+     width: 90%;
+     padding: 15px;
+     margin-top: 10px;
+     background: black;
+     margin-left: 90px;
+     margin-bottom: 10px;
+     color: white;
+     font-size: medium;
+}
+
+select{
      margin-bottom:20px;
      width: 90%;
      padding: 15px;
@@ -46,4 +58,4 @@ hr{
 /* paragraph */
 p{
      font-size: large;
-}
+} 

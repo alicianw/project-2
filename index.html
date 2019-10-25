@@ -3,30 +3,35 @@
     <head>
         <title>Birthday</title>
         <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+        
     </head>
     <body>
-         <script src="js/scripts.js"></script>
-
-         <form>
-         <div class="container">
+         
+         <form onsubmit="result=false">
          <h1>Birth Details</h1> 
          <p>Please fill in this form with your accurate details</p>
          <hr>
         
-         <label for="gender"><b>Gender:</b></label>
-         <input type="text" placeholder="Enter" name="gender" required></br>
+         <label for="gend"><b>Gender:</b></label>
+         <select  id="gender">
+         <option value="male">male</option>
+         <option value="female">female</option>
+         </select>
 
-         <label for="century"><b>Century:</b></label>
-         <input type="text" placeholder="Enter" name="century" required></br>
-
-         <label for="year"><b>Year:</b></label>
-         <input type="text" placeholder="Enter" name="year" required></br>
-
+         <label for="century"><b>Day:</b></label>
+         <input type="text" placeholder="Enter" name="day" required></br>
+         
          <label for="month"><b>Month:</b></label>
          <input type="text" placeholder="Enter" name="month" required></br>
+        
+         <label for="year"><b>Year:</b></label>
+         <input type="text" placeholder="Enter" name="year" required></br>
+         <p id="value">lable</p>
 
-         <button type="submit" class="submitbtn">SUBMIT</button>
-         </div> 
-        </form>  
+         <button onClick="myFrm()">SUBMIT</button>
+        
+        </form> 
+
+        <script src="js/scripts.js"></script>
     </body>
 </html>
