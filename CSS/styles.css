@@ -1,0 +1,49 @@
+/* Headings */
+h1{
+     font-style: italic;
+     text-align: center;
+     color: mediumvioletred;
+     font-size: xx-large;
+}
+
+
+/* form  */
+input{
+     margin-bottom:20px;
+     width: 90%;
+     padding: 15px;
+     margin-top: 10px;
+     background: black;
+     margin-left: 90px;
+     margin-bottom: 10px;
+     color: white;
+     font-size: medium;
+}
+
+::placeholder{
+    color: white;
+    font-size: medium;
+}
+
+label{
+     font-style: inherit;
+     font-size: x-large;
+     color:hotpink;
+}
+
+button{
+     width: 70%; 
+     padding: 20px;
+     margin: 50px;
+     margin-left: 18%;  
+}
+
+hr{
+     margin-bottom: 20px;
+}
+
+
+/* paragraph */
+p{
+     font-size: large;
+}
