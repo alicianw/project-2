@@ -8,10 +8,10 @@ function myFrm() {
   
     var fml =( ( (cc/4) - 2 * (cc - 1)) + ((5*yy/4) ) + ((26*(month+1)/day)) + day )% 7;
     var bdate = fml.toFixed(0);
-    console.log(bdate);
+    
      
-     var m = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-      var f = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+     var mname = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+      var fname = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
     if (gender == "male"){
       return  document.getElementById("result").innerHTML = mname[bdate-1];
       }
