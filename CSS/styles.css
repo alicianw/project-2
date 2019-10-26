@@ -5,12 +5,14 @@
 }
 
 .container{
-     position: absolute;
+     /* position: absolute; */
      width: 65%;
      height: 65%;
      margin-left: 15%;
-     border: 2px solid white;
-     margin-top: 10px;
+     border-style: double;
+     border-width: 2px;
+     margin-top: 20px;
+     margin-bottom: 20px;
 }
 
 
