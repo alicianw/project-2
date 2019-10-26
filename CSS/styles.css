@@ -47,7 +47,8 @@ button{
      width: 70%; 
      padding: 20px;
      margin: 50px;
-     margin-left: 18%;  
+     margin-left: 18%; 
+     font-size: 20px; 
 }
 
 hr{
