@@ -7,4 +7,13 @@ function myFrm(){
   var d = document.getElementsById("day").value;
   var mnth = document.getElementsById("month").value;
   var y = document.getElementsById("year").value;
+
+  var date = new Date(`${y}-${mnth}-${d}`);
+  var day = date.getDay();
+  if (g=="male"){
+    return document.getElementsById("val").innerHTML=m[day] +" "+days[day];
+  }
+  if (g=="female"){
+    return document.getElementsById("val").innerHTML=f[day] +" "+days[day];
+  }
 }
