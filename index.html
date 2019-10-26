@@ -9,33 +9,32 @@
 </head>
 <body>
     <div class="container">
+
     <form onsubmit="result=false">
      <h1>BirthDay</h1>
      <p>Please fill in this form with your accurate details</p>
      <hr>
 
     <div class="data">
-     <select id="gender">
-     <option value="male">male</option>
-     <option value="female">female</option>    
+
+     <label for="gen"><b>Gender:</b></label><br>
+     <select name="gen">
+     <option name="gen" value="male">male</option>
+     <option name="gen" value="female">female</option>    
      </select><br>
 
-     <input type="text" placeholder="Enter" id="day" required><br>
-
-     <input type="text" placeholder="Enter" id="month" required><br>
-
-     <input type="text" placeholder="Enter" id="year" required><br>
-    </div>
-
-    <div class="lbl">
-     <label for="gender"><b>Gender:</b></label><br>
      <label for="day"><b>Day:</b></label><br>
+     <input type="text" placeholder="Enter" name="day" required><br>
+
      <label for="month"><b>Month:</b></label><br>
-     <label for="year"><b>Year:</b></label>
+     <input type="text" placeholder="Enter" name="month" required><br>
+
+     <label for="year"><b>Year:</b></label><br>
+     <input type="text" placeholder="Enter" name="year" required><br>
     </div>
 
-     <p id="val">RESULT:</p>
-     <button onclick="myFrm()">Submit</button>
+     <!-- <p name="val">RESULT:</p> -->
+     <button type="button" onclick="myFrm()">Submit</button>
      </form>
     </div>
 

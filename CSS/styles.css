@@ -1,17 +1,17 @@
-body{
+*{
      padding: 0;
      margin: 0;
      background-color: #b2a7c4;
 }
+
 .container{
      position: absolute;
-     width: 80%;
-     height: 80%;
+     width: 65%;
+     height: 65%;
      align-self: center;
      margin-left: 10%;
-     border: 1px solid  chartreuse;
-   
 }
+
 
 /* Headings*/
 h1{
@@ -25,13 +25,13 @@ h1{
 
 /* form  */
 input{
-     margin-bottom:20px;
+     margin-bottom: 0px;
      padding: 15px;
      margin-top: 10px;
      background: black;
      color: white;
      font-size: medium;
-     width: 60%;
+     width: 50%;
 }
 
 input [type="text"]{
@@ -40,7 +40,7 @@ input [type="text"]{
 
 select{
      margin-bottom:20px;
-     width: 64%;
+     width: 54%;
      padding: 15px;
      margin-top: 10px;
      background:black;
@@ -61,7 +61,7 @@ label{
      font-style: inherit;
      font-size: x-large;
      color:hotpink;
-     margin-left: 20px;
+     margin-left: 10px;
 }
 
 button{
@@ -84,19 +84,9 @@ p{
 
 /* data container */
 .data{
-     float: right;
      width: 80%;
      height: auto;
-     line-height: 75px;
-     margin-left: 70px;
-}
-
-/* lbl container */
-.lbl{
-     position: relative;
-     width: 20%;
-     margin-left: 10px;
-}
-.lbl label{
-   line-height: 80px;
+     line-height: 40px;
+     margin-left: 15px;
+     align-self: center;
 }
