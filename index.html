@@ -8,70 +8,40 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
+    <div class="container">
     <form onsubmit="result=false">
      <h1>BirthDay</h1>
      <p>Please fill in this form with your accurate details</p>
      <hr>
 
-     <label for="gender"><b>Gender:</b></label>
+    <div class="data">
      <select id="gender">
      <option value="male">male</option>
      <option value="female">female</option>    
-     </select>
+     </select><br>
 
-     <label for="day"><b>Day:</b></label>
-     <input type="text" placeholder="Enter" required>
+     <input type="text" placeholder="Enter" required><br>
 
-     <label for="month"><b>Month:</b></label>
-     <input type="text" placeholder="Enter" required>
+     <input type="text" placeholder="Enter" required><br>
 
+     <input type="text" placeholder="Enter" required><br>
+    </div>
+
+    <div class="lbl">
+     <label for="gender"><b>Gender:</b></label><br>
+     <label for="day"><b>Day:</b></label><br>
+     <label for="month"><b>Month:</b></label><br>
      <label for="year"><b>Year:</b></label>
-     <input type="text" placeholder="Enter" required>
+    </div>
 
-     <p id="value">RESULT</p>
+     <!-- <p id="value">RESULT</p> -->
 
      <button onclick="myFrm()">Submit</button>
+
     </form>
+    </div>
 
-
-     <script src="js/scripts.js">Submit</script>
+    <script src="js/scripts.js">Submit</script>
 
 </body>
 </html>
-<!-- <!DOCTYPE html>
-<html>
-    <head>
-        <title>Birthday</title>
-        <link rel="stylesheet" type="text/css" href="CSS/styles.css">
-        
-    </head>
-    <body>
-         
-         <form onsubmit="result=false">
-         <h1>Birth Details</h1> 
-         <p>Please fill in this form with your accurate details</p>
-         <hr>
-        
-         <label for="gend"><b>Gender:</b></label>
-         <select  id="gender">
-         <option value="male">male</option>
-         <option value="female">female</option>
-         </select>
-
-         <label for="day"><b>Day:</b></label>
-         <input type="text" placeholder="Enter" id="day" required></br>
-         
-         <label for="month"><b>Month:</b></label>
-         <input type="text" placeholder="Enter" id="month" required></br>
-        
-         <label for="year"><b>Year:</b></label>
-         <input type="text" placeholder="Enter" id="year" required></br>
-         <p id="value">lable</p>
-
-         <button onClick="myFrm()">SUBMIT</button>
-        
-        </form> 
-
-        <script src="js/scripts.js"></script>
-    </body>
-</html> -->

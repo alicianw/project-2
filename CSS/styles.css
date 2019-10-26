@@ -1,35 +1,43 @@
+*{
+     padding: 0;
+     margin: 0;
+     background-color: #b2a7c4;
+}
+
 /* Headings*/
 h1{
      font-style: italic;
      text-align: center;
      color: mediumvioletred;
-     font-size: xx-large;
+     font-size: 50px;
+     margin-top: 0%;
 }
 
 
 /* form  */
 input{
      margin-bottom:20px;
-     width: 90%;
      padding: 15px;
      margin-top: 10px;
      background: black;
-     margin-left: 90px;
-     margin-bottom: 10px;
      color: white;
      font-size: medium;
+}
+input [type="text"]{
+     width: 200px;
 }
 
 select{
      margin-bottom:20px;
-     width: 90%;
+     width: 235px;
      padding: 15px;
      margin-top: 10px;
-     background: black;
-     margin-left: 90px;
+     background: none;
      margin-bottom: 10px;
      color: white;
      font-size: medium;
+     border: 1px solid #2f0870;
+     
 }
 
 ::placeholder{
@@ -38,6 +46,7 @@ select{
 }
 
 label{
+     width: 30px;
      font-style: inherit;
      font-size: x-large;
      color:hotpink;
@@ -51,12 +60,28 @@ button{
      font-size: 20px; 
 }
 
-hr{
-     margin-bottom: 20px;
-}
-
 
 /* paragraph */
 p{
-     font-size: large;
+     font-size: 20px;
 } 
+
+
+/* data container */
+.data{
+     float: right;
+     width: 65%;
+     height: auto;
+     line-height: 75px;
+     
+}
+
+/* lbl container */
+.lbl{
+     float: left;
+     width: 20%;
+     margin-left: 5%;
+}
+.lbl label{
+   line-height: 80px;
+}
