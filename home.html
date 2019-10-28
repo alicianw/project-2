@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Birthday</title>
-      <link rel="stylesheet" href="CSS/styles.css">
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Birthday</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    
+    <nav id="diff">
+        <a href="index.html">Back</a></li>
+    </nav>
 
-     <nav id=dif>
-      <a href="index.html">Next</a>
-     </nav>
+    <div class="container">
 
-         <div id=p>
-      <h1>BIENVENU</h1><br>
-      <hr><br>
-      <p>This is a web application that gives you the chance to know the exact day you were boen using your birth details.
-          It not only gives you the day you were born but also provides you with a Ghanaian Akan name which differs depending 
-          on your gender and day!
-      </p><br>
-     
-      <p>This application can help you get to know more about yourself or your loved one. I therefor urge you to apply 
-          and get ready to add another name to your birth certificate!
-      </p>
-         </div>
+    <form onsubmit="result=false">
+     <h1>BirthDay</h1>
+     <p>Please fill in this form with your accurate details</p>
+     <hr>
 
-      <script src="js/scripts.js">Submit</script>
-    </body>
+    <div class="data">
+
+     <label for="gender"><b>Gender:</b></label><br>
+     <select id="gender" name="gender">
+     <option name="gender" value="male">male</option>
+     <option name="gender" value="female">female</option>    
+     </select><br>
+
+     <label for="day"><b>Day:</b></label><br>
+     <input id="day" type="text" placeholder="Enter" name="day" required><br>
+
+     <label for="month"><b>Month:</b></label><br>
+     <input id="month" type="text" placeholder="Enter" name="month" required><br>
+
+     <label for="year"><b>Year:</b></label><br>
+     <input id="year" type="text" placeholder="Enter" name="year" required><br>
+    </div>
+
+     <button type="button" onclick="myFrm()">Submit</button>
+    <output id="result"><b>Your Akan name is:</b></output>
+
+    </form>
+    </div>
+
+    <script src="js/scripts.js">Submit</script>
+
+</body>
 </html>
