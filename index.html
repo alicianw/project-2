@@ -24,24 +24,26 @@
 
     <div class="data">
 
-     <label for="gen"><b>Gender:</b></label><br>
-     <select name="gen">
-     <option name="gen" value="male">male</option>
-     <option name="gen" value="female">female</option>    
+     <label for="gender"><b>Gender:</b></label><br>
+     <select id="gender" name="gender">
+     <option name="gender" value="male">male</option>
+     <option name="gender" value="female">female</option>    
      </select><br>
 
      <label for="day"><b>Day:</b></label><br>
-     <input type="text" placeholder="Enter" name="day" required><br>
+     <input id="day" type="text" placeholder="Enter" name="day" required><br>
 
      <label for="month"><b>Month:</b></label><br>
-     <input type="text" placeholder="Enter" name="month" required><br>
+     <input id="month" type="text" placeholder="Enter" name="month" required><br>
 
      <label for="year"><b>Year:</b></label><br>
-     <input type="text" placeholder="Enter" name="year" required><br>
+     <input id="year" type="text" placeholder="Enter" name="year" required><br>
     </div>
 
      <!-- <p name="val">RESULT:</p> -->
      <button type="button" onclick="myFrm()">Submit</button>
+    <output id="result"></output>
+
     </form>
     </div>
 
