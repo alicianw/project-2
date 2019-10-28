@@ -41,4 +41,8 @@
      document.getElementById("result").innerHTML = fname[date] +" "+ wday[date];
   }
 
+  // if (day= > 31) {
+  //   console.log(invalid option)
+  // }
+
 }
