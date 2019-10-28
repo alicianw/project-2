@@ -29,6 +29,18 @@
   let bdate = new Date(`${year}-${month}-${day}`);
   let date = bdate.getDay();
 
+  if (day < 1 || day > 31 || day=="") {
+    alert("invalid option for day")
+  }
+
+  if (year < 1900 || year > 2019 || year==""){
+    alert("inavlid option for year")
+  }
+
+if (month < 1 || month > 12 || month==""){
+  alert("invalid option for month")
+}
+
   var wday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   var mname = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   var fname = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
@@ -41,8 +53,5 @@
      document.getElementById("result").innerHTML = fname[date] +" "+ wday[date];
   }
 
-  // if (day= > 31) {
-  //   console.log(invalid option)
-  // }
 
 }
